@@ -1,7 +1,7 @@
 body {
-    margin: 15;
-    padding: 15;
-    background: rgb(241, 23, 150);
+    margin: 0;
+    padding: 0;
+    background: rgb(196, 121, 167);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,9 +16,9 @@ body {
     padding: 5px;
     align-items: center;
     text-align: center;
-    background: #d75a8e;
+    background: #b636a9;
     color: white;
-    width: 100%;
+    width: 50%;
     font-size: 1rem;
     font-weight: bold;
     }
@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
     }
     
     .yes-or-no .yes {
@@ -36,7 +37,7 @@ body {
     background: rgb(132, 207, 132);
     color: white;
     font-size: 1rem;
-    border: 2px solid rgb(225, 122, 189);
+    border: 2px solid rgb(236, 70, 151);
     border-radius: 8px;
     padding: 5px;
     text-transform: uppercase;
@@ -49,12 +50,19 @@ body {
     color: white;
     font-size: 1rem;
     border-radius: 8px;
-    border: 2px solid rgb(188, 114, 170);
+    border: 2px solid rgb(188, 62, 139);
     padding: 5px;
     text-transform: uppercase;
     }
     
+    
     h1 {
     color: #fff;
+    display: bock;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    font-weight: bold;
     }
-    

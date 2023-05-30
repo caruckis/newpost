@@ -1,6 +1,7 @@
 var btn = document.querySelector(".no");
 var position
 
+
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     btn.addEventListener("touchstart", function() {
         position ? (position = 0) : (position = 150);
@@ -20,6 +21,3 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         btn.style.transition = "all 0.3s ease";
         });
   }
-
-
-
